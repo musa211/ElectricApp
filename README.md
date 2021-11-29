@@ -11,7 +11,7 @@ electricity rates.
 
 ## Demo
 
-Insert gif or link to demo
+Will insert soon, my AVD is lagging at the moment.
 
 ## Acknowledgements
 
