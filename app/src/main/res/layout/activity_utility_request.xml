@@ -1,0 +1,195 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:background="@color/splash_screen_color"
+    android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    tools:context=".UtilityRequestActivity" >
+
+    <ScrollView
+        android:fillViewport="true"
+        android:layout_height="match_parent"
+        android:layout_width="match_parent"
+        app:layout_editor_absoluteX="147dp"
+        app:layout_editor_absoluteY="-50dp" >
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_height="wrap_content"
+            android:layout_width="match_parent" >
+
+            <TextView
+                android:id="@+id/tvRequest"
+                android:layout_height="wrap_content"
+                android:layout_width="wrap_content"
+                android:layout_marginTop="30dp"
+                android:paddingLeft="20dp"
+                android:paddingRight="20dp"
+                android:text="@string/utility_request_title"
+                android:textColor="@color/white"
+                android:textSize="30sp"
+                android:textStyle="bold"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <EditText
+                android:id="@+id/etStreetAddress"
+                android:background="@drawable/bg_input_shape"
+                android:drawablePadding="10dp"
+                android:drawableStart="@drawable/ic_baseline_add_location_24"
+                android:ems="10"
+                android:hint="@string/hint_street_address"
+                android:importantForAutofill="no"
+                android:inputType="textPostalAddress"
+                android:layout_height="wrap_content"
+                android:layout_width="0dp"
+                android:layout_marginEnd="50dp"
+                android:layout_marginStart="50dp"
+                android:layout_marginTop="25dp"
+                android:paddingBottom="15dp"
+                android:paddingLeft="20dp"
+                android:paddingRight="20dp"
+                android:paddingTop="15dp"
+                android:textColor="@color/white"
+                android:textColorHint="@color/white"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/tvRequest" />
+
+            <EditText
+                android:id="@+id/etCity"
+                android:background="@drawable/bg_input_shape"
+                android:drawablePadding="10dp"
+                android:drawableStart="@drawable/ic_baseline_location_city_24"
+                android:ems="10"
+                android:hint="@string/hint_city"
+                android:importantForAutofill="no"
+                android:inputType="text"
+                android:layout_height="wrap_content"
+                android:layout_width="0dp"
+                android:layout_marginTop="25dp"
+                android:paddingBottom="15dp"
+                android:paddingLeft="20dp"
+                android:paddingRight="20dp"
+                android:paddingTop="15dp"
+                android:textColor="@color/white"
+                android:textColorHint="@color/white"
+                app:layout_constraintEnd_toEndOf="@+id/etStreetAddress"
+                app:layout_constraintStart_toStartOf="@+id/etStreetAddress"
+                app:layout_constraintTop_toBottomOf="@id/etStreetAddress" />
+
+            <EditText
+                android:id="@+id/etState"
+                android:background="@drawable/bg_input_shape"
+                android:drawablePadding="10dp"
+                android:drawableStart="@drawable/ic_baseline_landscape_24"
+                android:ems="10"
+                android:hint="@string/hint_state"
+                android:importantForAutofill="no"
+                android:inputType="textShortMessage"
+                android:layout_height="wrap_content"
+                android:layout_width="0dp"
+                android:layout_marginTop="25dp"
+                android:paddingBottom="15dp"
+                android:paddingLeft="20dp"
+                android:paddingRight="20dp"
+                android:paddingTop="15dp"
+                android:textColor="@color/white"
+                android:textColorHint="@color/white"
+                app:layout_constraintEnd_toEndOf="@+id/etCity"
+                app:layout_constraintStart_toStartOf="@+id/etCity"
+                app:layout_constraintTop_toBottomOf="@id/etCity" />
+
+            <EditText
+                android:id="@+id/etRadius"
+                android:background="@drawable/bg_input_shape"
+                android:drawablePadding="10dp"
+                android:drawableStart="@drawable/ic_baseline_radio_button_unchecked_24"
+                android:ems="10"
+                android:hint="@string/hint_radius"
+                android:inputType="number"
+                android:importantForAutofill="no"
+                android:layout_height="wrap_content"
+                android:layout_width="0dp"
+                android:layout_marginTop="25dp"
+                android:paddingBottom="15dp"
+                android:paddingLeft="20dp"
+                android:paddingRight="20dp"
+                android:paddingTop="15dp"
+                android:textColor="@color/white"
+                android:textColorHint="@color/white"
+                app:layout_constraintEnd_toEndOf="@+id/etState"
+                app:layout_constraintStart_toStartOf="@+id/etState"
+                app:layout_constraintTop_toBottomOf="@id/etState" />
+
+            <EditText
+                android:id="@+id/etLimit"
+                android:background="@drawable/bg_input_shape"
+                android:drawablePadding="10dp"
+                android:drawableStart="@drawable/ic_baseline_format_list_numbered_24"
+                android:ems="10"
+                android:hint="@string/hint_limit"
+                android:inputType="number"
+                android:importantForAutofill="no"
+                android:layout_height="wrap_content"
+                android:layout_width="0dp"
+                android:layout_marginTop="25dp"
+                android:paddingBottom="15dp"
+                android:paddingLeft="20dp"
+                android:paddingRight="20dp"
+                android:paddingTop="15dp"
+                android:textColor="@color/white"
+                android:textColorHint="@color/white"
+                app:layout_constraintEnd_toEndOf="@+id/etRadius"
+                app:layout_constraintStart_toStartOf="@+id/etRadius"
+                app:layout_constraintTop_toBottomOf="@id/etRadius" />
+
+            <Button
+                android:background="@drawable/bg_input_shape"
+                android:id="@+id/btnSubmitRequest"
+                android:layout_height="wrap_content"
+                android:layout_width="0dp"
+                android:layout_marginTop="25dp"
+                android:paddingBottom="15dp"
+                android:paddingTop="15dp"
+                android:text="@string/submit_request"
+                android:textAllCaps="false"
+                android:textColor="@color/white"
+                android:textSize="20sp"
+                app:layout_constraintEnd_toEndOf="@+id/etLimit"
+                app:layout_constraintStart_toStartOf="@+id/etLimit"
+                app:layout_constraintTop_toBottomOf="@+id/etLimit" />
+
+            <Button
+                android:background="@drawable/bg_input_shape"
+                android:id="@+id/btnClearRequest"
+                android:layout_height="wrap_content"
+                android:layout_width="wrap_content"
+                android:layout_marginTop="25dp"
+                android:paddingBottom="15dp"
+                android:paddingTop="15dp"
+                android:text="@string/clear"
+                android:textAllCaps="false"
+                android:textColor="@color/white"
+                android:textSize="20sp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/btnSubmitRequest" />
+
+            <ProgressBar
+                android:id="@+id/requestProgress"
+                android:indeterminateTint="@color/white"
+                android:layout_height="wrap_content"
+                android:layout_width="wrap_content"
+                android:layout_marginTop="25dp"
+                android:max="100"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/btnClearRequest" />
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+    </ScrollView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

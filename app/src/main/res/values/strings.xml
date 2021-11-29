@@ -1,0 +1,66 @@
+<resources>
+    <string name="app_name">Electric App</string>
+
+    <!-- Splash screen strings -->
+    <string name="splash_title">Electrical App Tool</string>
+    <string name="splash_art">Splash Art from unDraw</string>
+    <string name="splash_quote">"With Great Power Comes Great Electrical Bills"</string>
+    <string name="splash_image_description">Image found Online</string>
+
+    <!-- Login page strings -->
+    <string name="login">Login</string>
+    <string name="hint_email">Email</string>
+    <string name="hint_password">Password</string>
+    <string name="forgot_password">Forgot Password?</string>
+    <string name="create_new_account">Create New Account?</string>
+    <string name="or">OR</string>
+
+    <!-- Logo description strings -->
+    <string name="google_description">Google company logo.</string>
+    <string name="facebook_description">Facebook company logo.</string>
+    <string name="phone_description">A phone logo.</string>
+    <string name="twitter_description">Twitter company description.</string>
+    <string name="github_description">Github company description.</string>
+
+    <!-- Register page strings -->
+    <string name="register">Register</string>
+    <string name="confirm_password">Confirm Password</string>
+    <string name="already_have_account">Already Have An Account?</string>
+    <string name="clear">Clear</string>
+
+    <!-- Utility Dashboard page strings -->
+    <string name="dashboard_title">Utility Tools</string>
+    <string name="card1_title">Utility Companies</string>
+    <string name="card1_subtext">At any location</string>
+    <string name="card2_title">Utility Rate</string>
+    <string name="card2_subtext">Com., Ind., Res.</string>
+    <string name="card3_title">Solar</string>
+    <string name="card3_subtext">Solar resource data</string>
+    <string name="card4_title">Transportation</string>
+    <string name="card4_subtext">Alternative fuel station</string>
+    <string name="icon_company">Icon of company</string>
+    <string name="icon_electric">Icon of Electricity</string>
+    <string name="icon_solar">Icon of solar power</string>
+    <string name="icon_transportation">Icon of electric vehicle transportation</string>
+
+    <!-- Utility Information Request page strings -->
+    <string name="utility_request_title">Utility Information Request</string>
+    <string name="hint_street_address">Street Address</string>
+    <string name="hint_city">City</string>
+    <string name="hint_state">State</string>
+    <string name="hint_radius">Radius</string>
+    <string name="hint_limit">Limit</string>
+    <string name="submit_request">Submit Request</string>
+
+    <!-- Utility Rate Request page strings -->
+    <string name="utility_rate_title">Utility Rate Request</string>
+    <string name="commercial">Commercial</string>
+    <string name="residential">Residential</string>
+    <string name="industrial">Industrial</string>
+
+    <!-- Menu items strings -->
+    <string name="home">Home</string>
+    <string name="profile">Profile</string>
+    <string name="settings">Settings</string>
+
+</resources>
