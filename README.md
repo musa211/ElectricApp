@@ -13,6 +13,17 @@ electricity rates.
 
 Will insert soon, my AVD is lagging at the moment.
 
+## Screenshots
+
+| Splash Page | Login Page | Register Page |
+| :---------- | :--------- | :------------ |
+| <img width="300" height="500" src="https://user-images.githubusercontent.com/71911458/143962158-af4c1d7f-8b79-40c3-b2b1-c9f50e1e4cf5.png" /> | <img width="300" height="500" src="https://user-images.githubusercontent.com/71911458/143962486-6c55a123-558c-4a7f-8e90-d40ec5e9b742.png" /> | <img width="300" height="500" src="https://user-images.githubusercontent.com/71911458/143962536-35431941-3918-4795-acd1-4dfd58193102.png" /> |
+| Utility Tool Page | Utility Info Page | Utility Rate Page |
+| <img width="300" height="500" src="https://user-images.githubusercontent.com/71911458/143971168-acb1d677-de4b-45b4-8683-05ca8f9753a0.png" /> | <img width="300" height="500" src="https://user-images.githubusercontent.com/71911458/143971479-11ec0f88-b70b-49f6-9c6c-d73b3716f9c7.png" /> | <img width="300" height="500" src="https://user-images.githubusercontent.com/71911458/143971537-b6fbe8f4-9dff-4123-8ebd-a0b6754cda02.png" /> |
+| Utility Rate Result Page | Utility Info Result Page |
+| <img width="300" height="500" src="https://user-images.githubusercontent.com/71911458/143972822-ff180bc8-273b-4449-b0df-8527126ff88a.png" /> | <img width="300" height="500" src="https://user-images.githubusercontent.com/71911458/143973198-34c5a313-2d2d-481a-bdc9-d4aadf8ae482.png" /> |
+
+
 ## Acknowledgements
 
  - [Awesome Icons](https://iconscout.com)
