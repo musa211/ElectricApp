@@ -11,11 +11,12 @@ electricity rates.
 
 ## Demo
 
-Will more insert soon, my AVD is lagging at the moment.
+| Login Demo | Register Demo | Request Demo | Request Rate Demo |
+| :--------- | :------------ | :----------- | :---------------- |
+| ![Login_demo4](https://user-images.githubusercontent.com/71911458/144695133-df2da26e-c576-4ab2-ae84-ca25e147eca5.gif) | ![Register_demo3](https://user-images.githubusercontent.com/71911458/144696368-1c0a6b61-f31a-4377-850a-a55c1f6f7a19.gif) | ![Request_demo3](https://user-images.githubusercontent.com/71911458/144696699-5f4c9d68-a31a-4705-a203-dcaac7cc6cb4.gif) | ![Rate_demo3](https://user-images.githubusercontent.com/71911458/144697066-0f2c0833-4073-4294-931a-5764449ebd15.gif)
 
-### Login Demo
+**Aplogies for the Gif quality, this was the best I could do, my virtual device is glitchy, so I had to use a third party tool.**
 
-<img width="300" height="500" src="https://user-images.githubusercontent.com/71911458/144694570-c29edeeb-65cc-495c-a6b4-b47917d01ece.gif" />
 
 
 ## Screenshots
