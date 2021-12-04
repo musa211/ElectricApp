@@ -11,7 +11,12 @@ electricity rates.
 
 ## Demo
 
-Will insert soon, my AVD is lagging at the moment.
+Will more insert soon, my AVD is lagging at the moment.
+
+### Login Demo
+
+<img width="300" height="500" src="https://user-images.githubusercontent.com/71911458/144694570-c29edeeb-65cc-495c-a6b4-b47917d01ece.gif" />
+
 
 ## Screenshots
 
