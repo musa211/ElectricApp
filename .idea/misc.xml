@@ -9,8 +9,12 @@
         <entry key="..\:/Users/musaj/AndroidStudioProjects/ElectricApp/app/src/main/res/drawable/bottom_navigation_item.xml" value="0.14351851851851852" />
         <entry key="..\:/Users/musaj/AndroidStudioProjects/ElectricApp/app/src/main/res/drawable/bottom_navigation_shape.xml" value="0.165625" />
         <entry key="..\:/Users/musaj/AndroidStudioProjects/ElectricApp/app/src/main/res/drawable/btn_bg.xml" value="0.19583333333333333" />
+        <entry key="..\:/Users/musaj/AndroidStudioProjects/ElectricApp/app/src/main/res/drawable/ic_baseline_add_location_24.xml" value="0.18871794871794872" />
         <entry key="..\:/Users/musaj/AndroidStudioProjects/ElectricApp/app/src/main/res/drawable/ic_baseline_email_24.xml" value="0.19583333333333333" />
         <entry key="..\:/Users/musaj/AndroidStudioProjects/ElectricApp/app/src/main/res/drawable/ic_baseline_home_24.xml" value="0.125" />
+        <entry key="..\:/Users/musaj/AndroidStudioProjects/ElectricApp/app/src/main/res/drawable/ic_baseline_landscape_24.xml" value="0.19166666666666668" />
+        <entry key="..\:/Users/musaj/AndroidStudioProjects/ElectricApp/app/src/main/res/drawable/ic_baseline_person_24.xml" value="0.19166666666666668" />
+        <entry key="..\:/Users/musaj/AndroidStudioProjects/ElectricApp/app/src/main/res/drawable/ic_baseline_radio_button_unchecked_24.xml" value="0.1125" />
         <entry key="..\:/Users/musaj/AndroidStudioProjects/ElectricApp/app/src/main/res/drawable/ic_baseline_security_24.xml" value="0.19583333333333333" />
         <entry key="..\:/Users/musaj/AndroidStudioProjects/ElectricApp/app/src/main/res/drawable/ic_baseline_settings_24.xml" value="0.1" />
         <entry key="..\:/Users/musaj/AndroidStudioProjects/ElectricApp/app/src/main/res/drawable/ic_bulb_solar_energy.xml" value="0.19583333333333333" />
@@ -22,7 +26,8 @@
         <entry key="..\:/Users/musaj/AndroidStudioProjects/ElectricApp/app/src/main/res/drawable/image_view_img.xml" value="0.19583333333333333" />
         <entry key="..\:/Users/musaj/AndroidStudioProjects/ElectricApp/app/src/main/res/drawable/java_developer_background.xml" value="0.1814814814814815" />
         <entry key="..\:/Users/musaj/AndroidStudioProjects/ElectricApp/app/src/main/res/drawable/square.xml" value="0.19583333333333333" />
-        <entry key="..\:/Users/musaj/AndroidStudioProjects/ElectricApp/app/src/main/res/layout/activity_login.xml" value="0.3333333333333333" />
+        <entry key="..\:/Users/musaj/AndroidStudioProjects/ElectricApp/app/src/main/res/layout/activity_google_sign_in.xml" value="0.17395833333333333" />
+        <entry key="..\:/Users/musaj/AndroidStudioProjects/ElectricApp/app/src/main/res/layout/activity_login.xml" value="0.16666666666666666" />
         <entry key="..\:/Users/musaj/AndroidStudioProjects/ElectricApp/app/src/main/res/layout/activity_main.xml" value="0.3333333333333333" />
         <entry key="..\:/Users/musaj/AndroidStudioProjects/ElectricApp/app/src/main/res/layout/activity_register.xml" value="0.3333333333333333" />
         <entry key="..\:/Users/musaj/AndroidStudioProjects/ElectricApp/app/src/main/res/layout/activity_request_params.xml" value="0.1796875" />

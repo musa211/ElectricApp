@@ -7,6 +7,9 @@ import androidx.cardview.widget.CardView;
 import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
+import android.widget.Button;
+
+import com.google.firebase.auth.FirebaseAuth;
 
 public class UtilityDashboardActivity extends AppCompatActivity implements View.OnClickListener {
 
@@ -14,6 +17,9 @@ public class UtilityDashboardActivity extends AppCompatActivity implements View.
     private CardView cardTwo;
     private CardView cardThree;
     private CardView cardFour;
+
+    private Button btnLogout;
+    private FirebaseAuth mAuth;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -34,6 +40,18 @@ public class UtilityDashboardActivity extends AppCompatActivity implements View.
         cardTwo.setOnClickListener(this);
         cardThree.setOnClickListener(this);
         cardFour.setOnClickListener(this);
+
+        btnLogout = findViewById(R.id.btnLogout);
+        mAuth = FirebaseAuth.getInstance();
+        btnLogout.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                mAuth.signOut();
+                Intent intent = new Intent(UtilityDashboardActivity.this, LoginActivity.class);
+
+                startActivity(intent);
+            }
+        });
     }
 
     @Override

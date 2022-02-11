@@ -42,6 +42,7 @@
     <string name="icon_electric">Icon of Electricity</string>
     <string name="icon_solar">Icon of solar power</string>
     <string name="icon_transportation">Icon of electric vehicle transportation</string>
+    <string name="logout">Logout</string>
 
     <!-- Utility Information Request page strings -->
     <string name="utility_request_title">Utility Information Request</string>
