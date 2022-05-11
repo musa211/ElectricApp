@@ -2,8 +2,8 @@
 
 Electric App is a mobile application made on Android Studio
 that utilized the National Renewable Energy Laboratory 
-(PV Watts) API to detect nearby utility companies and 
-electricity rates.
+(PV Watts) API to locate utility companies and 
+electricity rates within a given location.
 
 ## Authors
 
